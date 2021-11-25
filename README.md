@@ -1,4 +1,4 @@
-# almalinux-deploy
+# almalinux
 
 An EL to AlmaLinux migration tool.
 
