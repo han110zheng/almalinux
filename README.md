@@ -1,13 +1,13 @@
-almalinux-deploy
+# almalinux-deploy
 An EL to AlmaLinux migration tool.
 
-Usage
+#Usage
 In order to convert your EL8 operating system to AlmaLinux do the following:
 
-Make a backup of the system. We didn't test all possible scenarios so there is a risk that something goes wrong. In such a situation you will have a restore point.
-Download the almalinux-deploy.sh script:
+#Make a backup of the system. We didn't test all possible scenarios so there is a risk that something goes wrong. In such a situation you will have a restore point.
+##Download the almalinux-deploy.sh script:
 $ curl -O https://raw.githubusercontent.com/AlmaLinux/almalinux-deploy/master/almalinux-deploy.sh
-Run the script and check its output for errors:
+##Run the script and check its output for errors:
 $ sudo bash almalinux-deploy.sh
   ...
   Migration to AlmaLinux is completed
